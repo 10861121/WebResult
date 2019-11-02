@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <style>
+      .header{
+
+      }
+  </style>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(8, 8, 8),rgb(8, 8, 0))">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>CPU</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">CPU List</li>
+            </ul>
+            <div class="header"></div>
+            <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content1" data-transition="slide">
+                            AMD Ryzen™ Threadripper 處理器
+                    </a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="slide">
+                            AMD Ryzen™ 處理器與 AMD Ryzen™ 處理器搭載 Radeon™ 顯示卡
+                    </a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="slide">
+                            AMD Athlon™ 處理器搭載 Radeon™ Vega 顯示卡
+                    </a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content4" data-transition="slide">
+                            AMD A-Series™ 處理器搭載 Radeon™ 顯示卡
+                    </a>
+                </li>
+            
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- cpu1 Page: Content  -->
+    <div id="Content1" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Introduction</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">AMD Ryzen™ Threadripper 處理器</div>
+            
+        </div>
+        <div class="ui-grid-c" style="height: 140px;margin-top: 40px;">
+            
+            <div class="ui-block-a"  style="text-align: center;">
+                <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+                    <img src="images/cpu/1.webp"   style="width: 100px">
+                    <h5>完善設計</h5>
+                <!-- </div> -->
+            </div>
+            <div class="ui-block-b"  style="text-align: center;">
+                    <img src="images/cpu/1-1.webp"     style="width: 100px">
+                    <h5>輕鬆掌控最紛繁複雜的程式和效果</h5>
+            </div>
+            <div class="ui-block-b"  style="text-align: center;">
+                    <img src="images/cpu/1-2.webp"     style="width: 100px">
+                    <h5>渲染場景的生動細節</h5>
+            </div>
+            <div class="ui-block-b"  style="text-align: center;">
+                    <img src="images/cpu/1-3.jpg"     style="width: 100px">
+                    <h5>開發遊戲抑或只是暢玩遊戲</h5>
+            </div>
+        </div><!-- /grid-b -->
+        <div style="height: 440px;margin-top: 40px;">
+                <img src="images/cpu/1-4.webp"     style="width: 100%">
+        </div>  
+        <div class="ui-grid-b" style="height: 140px;margin-top: -280px;">
+        
+            <div class="ui-block-a"  style="text-align: center;">
+                <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+                    <img src="images/cpu/1-5.webp"   style="width: 100px">
+                    <h5>AMD Ryzen Master 公用程式</h5>
+                <!-- </div> -->
+            </div>
+            <div class="ui-block-b"  style="text-align: center;">
+                    <img src="images/cpu/1-6.webp"     style="width: 100px">
+                    <h5>AMD SenseMI 技術*</h5>
+            </div>
+            <div class="ui-block-b"  style="text-align: center;">
+                    <img src="images/cpu/1-7.webp"     style="width: 100px">
+                    <h5>12nm「Zen+」架構</h5>
+            </div>
+            
+        </div><!-- /grid-b -->
+    </div>
+    
+    <!-- cpu2 Page: Content  -->
+    <div id="Content2" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Introduction</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">AMD Ryzen™ 桌上型電腦處理器</div>
+            
+        </div>
+        <div class="ui-grid-b" style="height: 140px;margin-top: 40px;">
+            
+            <div class="ui-block-a"  style="text-align: center;">
+                <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+                    <img src="images/cpu/2-1.webp"   style="width: 100px">
+                    <h5>AMD Ryzen™ Threadripper™ 處理器 </h5>
+                <!-- </div> -->
+            </div>
+            <div class="ui-block-b"  style="text-align: center;">
+                    <img src="images/cpu/2-2.webp"     style="width: 100px">
+                    <h5>AMD Ryzen™ 9 桌上型電腦處理器</h5>
+            </div>
+            <div class="ui-block-b"  style="text-align: center;">
+                    <img src="images/cpu/2-3.webp"     style="width: 100px">
+                    <h5>AMD Ryzen™ 7 桌上型電腦處理器</h5>
+            </div>
+            
+        </div><!-- /grid-b -->
+        <div style="height: 100%;margin-top: 40px;">
+                <img src="images/cpu/2-4.webp"     style="width: 100%">
+        </div>  
+        <div class="ui-grid-a" style="height: 100%;margin-top: 40px;">
+            
+                <div class="ui-block-a"  style="text-align: center;">
+                    <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+                        <img src="images/cpu/2-5.webp"   style="width: 100px">
+                        <h5>AMD StoreMI 技術</h5>
+                    <!-- </div> -->
+                </div>
+                <div class="ui-block-b"  style="text-align: center;">
+                        <img src="images/cpu/2-6.webp"     style="width: 100px">
+                        <h5>AMD Ryzen™ Master 公用程式</h5>
+                </div>
+                
+                
+            </div><!-- /grid-b -->
+    </div>
+    
+    
+    
+    <!-- cpu3 Page: Content  -->
+    <div id="Content3" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Introduction</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">新款 AMD Athlon™ 處理器搭載 Radeon™ Vega 顯示卡</div>
+            
+        </div>
+        <div style="height: 100%;margin-top: 40px;">
+                <img src="images/cpu/3-1.webp"     style="width: 100%">
+        </div> 
+        <div class="ui-grid-b" style="height: 100%;margin-top:40px;">
+            
+            <div class="ui-block-a"  style="text-align: center;">
+                <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+                    <img src="images/cpu/3-2.webp"   style="width: 100px">
+                    <h5>專為線上遊戲而設計 </h5>
+                <!-- </div> -->
+            </div>
+            <div class="ui-block-b"  style="text-align: center;">
+                    <img src="images/cpu/3-3.webp"     style="width: 100px">
+                    <h5>回應快速，效能可靠</h5>
+            </div>
+            <div class="ui-block-b"  style="text-align: center;">
+                    <img src="images/cpu/3-4.webp"     style="width: 100px">
+                    <h5>面向未來的平台</h5>
+            </div>
+        </div><!-- /grid-b -->
+        <div class="ui-grid-b" style="height: 100%;margin-top: 20px;">
+            
+                <div class="ui-block-a"  style="text-align: center; border: 1px solid black;">
+                    <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+                        <h3>7th Gen AMD Athlon™ X4 970</h3>
+                        <h5>
+                            CPU 核心數
+                            4
+                            執行緒數
+                            4
+                            最大超頻時脈
+                            最高 4GHz
+                            基本時脈
+                            3.8GHz
+                        </h5>
+                    <!-- </div> -->
+                </div>
+                <div class="ui-block-b"  style="text-align: center; border: 1px solid black;">
+                        <h3>7th Gen AMD Athlon™ X4 950</h3>
+                        <h5>
+                            CPU 核心數
+                            4
+                            執行緒數
+                            4
+                            最大超頻時脈
+                            最高 3.8GHz
+                            基本時脈
+                            3.5GHz
+                        </h5>
+                </div>
+                <div class="ui-block-b"  style="text-align: center; border: 1px solid black;">
+                        <h3>7th Gen AMD Athlon™ X4 940</h3>
+                        <h5>
+                            CPU 核心數
+                            4
+                            執行緒數
+                            4
+                            最大超頻時脈
+                            最高 3.6GHz
+                            基本時脈
+                            3.2GHz
+                        </h5>   
+                </div>
+                
+            </div><!-- /grid-b -->
+    </div>
+    <!-- cpu4 Page: Content  -->
+    <div id="Content4" data-role="page">
+            <div data-role="header" data-position="fixed" data-theme="b">
+                <h3>Introduction</h3>
+                <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+            </div>
+            <div class="ui-content">
+                <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">第 7 代 AMD A 系列處理器和 Athlon 處理器</div>
+                
+            </div>
+            <div style="height: 100%;margin-top: 40px;">
+                <div style="width: 100%; text-align: center;">採用第 7 代 AMD A 系列處理器並利用最新遊戲主機採用的相同 Radeon™ 顯示卡技術，提供出色的處理能力和世界級的遊戲體驗。</div>
+            </div> 
+            <div class="ui-grid-b" style="height: 100%;margin-top: 10px;">
+                
+                <div class="ui-block-a"  style="text-align: center;">
+                    <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+                        <img src="images/cpu/4-1.webp"   style="width: 100px">
+                        <h5>玩遊戲</h5>
+                    <!-- </div> -->
+                </div>
+                <div class="ui-block-b"  style="text-align: center;">
+                        <img src="images/cpu/4-2.webp"     style="width: 100px">
+                        <h5>超頻和可升級性</h5>
+                </div>
+                <div class="ui-block-b"  style="text-align: center;">
+                        <img src="images/cpu/4-3.webp"     style="width: 100px">
+                        <h5>符合未來需求的平台</h5>
+                </div>
+            </div><!-- /grid-b -->
+             
+            <div class="ui-grid-a" style="height: 100%;margin-top: 20px;">
+                
+                    <div class="ui-block-a"  style="text-align: center;">
+                        <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+                            <img src="images/cpu/4-4.webp"   style="width: 100%">
+                        <!-- </div> -->
+                    </div>
+                    <div class="ui-block-b"  style="text-align: center;">
+                            <h2> AM4 晶片組和主機板</h2>
+                            <h5>AMD 插槽 AM4 是公司所推出能經得起未來需求考驗的新平台。2</h5>
+                    </div>
+                </div><!-- /grid-b -->
+        </div>
+    
+</body>
+</html>
